@@ -1,0 +1,15 @@
+  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <!-- Javascript -->
+  <script>
+     $(function() {
+        $("#datepicker-3").datepicker({
+           appendText: "(yy-mm-dd)",
+           dateFormat: "yy-mm-dd",
+           altField: "#datepicker-4",
+           altFormat: "DD, d MM, yy"
+        });
+     });
+  </script>
+  <input type="text" id="datepicker-3" placeholder="जन्मतारीख" required>

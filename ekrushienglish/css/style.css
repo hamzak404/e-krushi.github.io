@@ -1,0 +1,387 @@
+body{
+	background-color: rgba(112, 137, 143, 0.2);
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.lang{
+	background-color: #000;
+	color: #fff;
+	padding: 5px 30px;
+	margin-top: -5px;	
+}
+.backimg{
+	background-image: url(../img/s3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	position: relative;
+}
+.backimg h2{
+	position: absolute; 
+	 top: 230px; 
+	 left: 0; 
+	 width: 100%;
+	 font-size: 40px;
+	 color: #fff;
+	 font-weight: bold;
+	 text-align: center;
+	 padding-left: 100px;
+	 padding-right: 100px;
+}
+.backimg h3{
+	 position: absolute; 
+	 top: 350px; 
+	 left: 0; 
+	 width: 100%;
+	 font-size: 30px;
+	 color: #78F7AC;
+	 font-weight: bold;
+	 text-align: center;
+	 padding-left: 100px;
+	 padding-right: 100px;
+	 /*background-color: transparent;*/
+}
+
+
+/* Navigation =============================================*/
+.navbar-default{
+	height: 70px;
+	background-color: #fff;
+}
+.navbar-collapse{
+	background-color: #fff;
+}
+.navbar-brand{
+	margin-top: -10px;
+}
+.navbar-brand img{
+	margin-left: 40px;
+}
+.navbar-right{
+	padding-top: 10px;
+}
+.navbar-right li a{
+	font-weight: bold;
+	font-size: 16px;
+}
+.navbar-default .navbar-right li a:hover{
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	background-color: #4FB568;
+}
+.navbar-default .navbar-right .active a{
+	color: #fff;
+	background-color: #4FB568;
+}
+.carousel{
+	height: 70%;
+}
+.thumb{
+	padding-top: 60px;
+}
+h3{
+	text-align: center;
+}
+.backcareer{
+	background-image: url(../img/career.png);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 1300px;
+	padding-top: -20px;
+}
+.backenquiry{
+	background-image: url(../img/enquiry1.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+
+
+/*  Footer =======================================*/
+
+.footer1{
+	background-color: #51814B; 
+	/*height: 75px;*/
+}
+.footer1 footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #51814B; 
+}
+footer h5{
+	color: #fff;
+	font-size: 14px;
+}
+.copy{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.develop{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*.copy{
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.develop{
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}*/
+
+/*=========== HomePage=================================*/
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(0, 0, 0, 0.7);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+
+
+/* Service ========================================*/
+
+.textservice p{
+	text-align: justify;
+}
+.textservice h4{
+	text-align: center;
+}
+
+  .s1:hover .flipper,  
+  .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+.flip-container, .front, .back {
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  background-color: transparent;
+  z-index: 2;
+}
+.front img{
+	padding-top: 30px;
+}
+.back img{
+	padding-top: 20px;
+}
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+
+  background-color: rgba(124, 171, 96, 0.4);
+
+}
+
+.front .name {
+  display: inline-block;
+  color:#18A642;
+  font-family: Courier;
+  border-radius: 5px;
+  font
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.front p{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+.back-title {
+  font-weight: bold;
+  color: #00304a;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+  font-family: Courier;
+  font-size: 2em;
+}
+
+.back a {
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-left: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 23px;
+}
+.thumbnail2 a{
+  border-color: #fff;
+  text-decoration: none;
+}
+.thumbnail2 p{
+	padding: 10px;
+	text-decoration: none;
+}
+.hback{
+	background-image: url(../img/b1.jpg);
+	height: 450px;
+	background-size: 100% 100%;
+}
+
+
+/*  About =================================================*/
+
+.info1{
+	padding-top: 60px;
+}
+.info.fa-caret-right{
+	padding-right: 20px;
+}
+.row2{
+	padding-top: 60px;
+}
+.aboutinfo{
+	text-align: justify;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.text p{
+	font-size: 16px;
+	padding-left: 20px;
+	text-align: justify;
+}
+.img{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.image{
+	position: relative;
+}
+.image h3{
+	position: absolute; 
+	 top: 230px; 
+	 left: 0; 
+	 width: 100%;
+	 font-size: 60px;
+	 color: #fff;
+	 font-weight: bold;
+}
+
+/*  Contact =================================*/
+
+
+.contactinfo h3{
+	position: absolute; 
+	 top: 63%; 
+	 left: 25%; 
+	 width: 100%;
+	 font-size: 60px;
+	 color: #fff;
+	 font-weight: bold;
+}
+.careerinfo{
+	position: relative;
+	padding-top: 80px;
+}
+.careerinfo h3{
+	position: absolute; 
+	 top: 200px; 
+	 left: -50px;
+	 width: 100%;
+	 font-size: 60px;
+	 color: #fff;
+	 font-weight: bold;
+}
+.inputf{
+	height: 40px;
+}
+.contacthead{
+	text-align: center;
+	font-size: 28px;
+	background-image: url(../img/img11.jpg);
+	height: 150px;
+	padding-top: 30px;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+}
+
+         @media (max-width:780px) {
+          .contactinfo h3 {
+            display: none;
+          }
+          .careerinfo h3{
+          	display: none;
+          }
+          .image h3{
+          	display: none;
+          }
+          .backimg h2{
+          	font-size: 25px;
+          	top: 17%;
+          	line-height: 30px;
+          }
+          .backimg h3{
+          	top: 55%;
+          }
+        }
